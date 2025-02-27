@@ -1,11 +1,31 @@
 main {
-    background-color: #eee;
-    border-radius: 5px;
-    margin: 25px 10px;
-    padding: 20px;
+    background-color: rgb(241, 235, 235);
+    margin: 30px 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header h1, p {
     display: flex;
     justify-content: center;
+}
+
+.img-div {
+    background-color: #fff;
+    display: flex;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
-    
+}
+
+div h4 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
 }
